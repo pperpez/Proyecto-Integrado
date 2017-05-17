@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieSeries</string>
+    <string name="txtSplashTitle1">MOVIE</string>
+    <string name="txtSplashTitle2">SERIES</string>
+    <string name="edtUser">Usuario</string>
+    <string name="edtPassword">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtRegister">¿No tienes cuenta? Registrate aquí</string>
+    <string name="txtUsuario">Usuario:</string>
+    <string name="txtEmail">Email:</string>
+    <string name="Contraseña" />
+    <string name="txtPassword">Contraseña:</string>
+    <string name="txtRepPassword">Repita Contraseña:</string>
+    <string name="btnRegister">Registrar</string>
+    <string name="txtLogin">¿Ya tienes cuenta? Inicia sesión aquí</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="peliculas">Películas</string>
+    <string name="series">Series</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
