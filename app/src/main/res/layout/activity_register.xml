@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dp"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp"
+    android:paddingTop="50dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.pablo.movieseries.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txtUsuario"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/edtUserRegister"
+            style="@style/editText_style"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txtEmail"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/edtEmailRegister"
+            style="@style/editText_style"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txtPassword"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/edtPasswordRegister"
+            style="@style/editText_style"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/txtRepPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txtRepPassword"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/edtRepPasswordRegister"
+            style="@style/editText_style"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="@style/button_style"
+            android:layout_marginTop="50dp"
+            android:text="@string/btnRegister" />
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtLogin"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+</LinearLayout>
