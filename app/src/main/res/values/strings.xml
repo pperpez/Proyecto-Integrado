@@ -1,19 +1,19 @@
 <resources>
     <string name="app_name">MovieSeries</string>
-    <string name="txtSplashTitle1">MOVIE</string>
-    <string name="txtSplashTitle2">SERIES</string>
+    <string name="txtSplashTitle1" translatable="false">MOVIE</string>
+    <string name="txtSplashTitle2" translatable="false">SERIES</string>
     <string name="edtUser">Usuario</string>
-    <string name="edtPassword">Password</string>
-    <string name="btnLogin">Login</string>
+    <string name="edtPassword" translatable="false">Password</string>
+    <string name="btnLogin" translatable="false">Login</string>
     <string name="txtRegister">¿No tienes cuenta? Registrate aquí</string>
     <string name="txtUsuario">Usuario:</string>
-    <string name="txtEmail">Email:</string>
+    <string name="txtEmail" translatable="false">Email:</string>
     <string name="Contraseña" />
     <string name="txtPassword">Contraseña:</string>
     <string name="txtRepPassword">Repita Contraseña:</string>
     <string name="btnRegister">Registrar</string>
     <string name="txtLogin">¿Ya tienes cuenta? Inicia sesión aquí</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">MovieSeries</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -24,4 +24,62 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userList">Mis listas</string>
+    <string name="bestFilms">Películas mejor valoradas</string>
+    <string name="bestSeries">Series mejor valoradas</string>
+    <string name="closeSession">Cerrar sesión</string>
+    <string name="userOptions">Opciones</string>
+    <string name="txtTituloAnyo">Año de lanzamiento</string>
+    <string name="txtTituloDuracion">Duración</string>
+    <string name="txtTituloSinopsis">Sinopsis</string>
+    <string name="txtTituloValoracion">Valoración</string>
+    <string name="txtTituloDirector" translatable="false">Director</string>
+    <string name="txtTituloReparto">Reparto principal</string>
+    <string name="txtTituloTrailer" translatable="false">Trailer</string>
+    <string name="txtTituloComentarios">Comentarios</string>
+    <string name="btnSend">Enviar</string>
+    <string name="btnComentarios">Ver comentarios</string>
+    <string name="txtTituloComentario">Escribir comentario</string>
+    <string name="loadingComments">Cargando comentarios...</string>
+    <string name="txtRateGeneral" translatable="false">General</string>
+    <string name="txtRatePersonal">Mi valoración </string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnCalificar">Calificar</string>
+    <string name="titleDialogRate">Calificar Película</string>
+    <string name="txtTituloDialogo">Calificar</string>
+    <string name="txtTituloGenero">Género</string>
+    <string name="title_activity_listas">Mis listas</string>
+    <string name="txtListaVacia">No tiene ninguna lista, pulsa el botón de añadir para crear una nueva lista</string>
+    <string name="txtTituloDialogoLista">Crear lista</string>
+    <string name="txtNombreListaCrear">Nombre:</string>
+    <string name="btnCrear">Crear</string>
+    <string name="txtNombreLista" />
+    <string name="txtNoPeliculas">No ha añadido ninguna película o serie todavía. Pulsa el botón buscar para agregar películas o series</string>
+    <string name="peliculas_series">Todas las películas y series</string>
+    <string name="login_incorrecto">Login incorrecto</string>
+    <string name="comentario_ya_realizado">No puede comentar más de una vez</string>
+    <string name="comentario_vacio">El comentario no puede estar vacío</string>
+    <string name="comentario_anyadido">Añadiendo comentario...</string>
+    <string name="calificacion_realizada">Calificación realizada</string>
+    <string name="calificacion_fallida">Calificación fallida</string>
+    <string name="pelicula_borrada">Película/Serie borrada</string>
+    <string name="pelicula_no_borrada">Ha ocurrido un error al borrar</string>
+    <string name="pregunta_borrar_pelicula">¿Quieres borrar la película/serie?</string>
+    <string name="si">Si</string>
+    <string name="no" translatable="false">No</string>
+    <string name="pelicula_anyadida">Película/Serie agregada</string>
+    <string name="pelicula_ya_anyadida">Ya ha añadido esa película/serie</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscar_pelicula">Escribe la pelicula/serie que buscas...</string>
+    <string name="lista_creada">Lista creada</string>
+    <string name="lista_error_crear">Error al crear la lista</string>
+    <string name="existe_usuario">Ya existe un usuario con ese nombre o email</string>
+    <string name="campos_vacios">No puede haber ningún campo vacío</string>
+    <string name="formato_email">El formato del email no es el correcto</string>
+    <string name="password_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="txtUserLogged">Usuario</string>
+    <string name="txtEmailLogged" translatable="false">Email</string>
+    <string name="txtEmailLoggedLista" translatable="false">Email</string>
+    <string name="txtUserLoggedLista">Usuario</string>
 </resources>
